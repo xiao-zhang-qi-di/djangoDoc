@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # 自己定义的子应用
     'polls.apps.PollsConfig',
+    'relation',
 ]
 
 MIDDLEWARE = [
