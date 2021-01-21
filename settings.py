@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # 自己定义的子应用
     'polls.apps.PollsConfig',
     'relation',
+    'student',
 ]
 
 MIDDLEWARE = [
