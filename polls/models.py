@@ -10,6 +10,7 @@ class Question(models.Model):
     """问题"""
     question_text = models.CharField(max_length=200, verbose_name='问题内容')
     pub_date = models.DateTimeField(verbose_name='发布日期')
+    name = models.CharField(default='qidi', max_length=20)
 
     def __str__(self):
         return self.question_text
